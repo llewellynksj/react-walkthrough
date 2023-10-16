@@ -64,6 +64,7 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
     'localhost',
+    'react-wt-e10c60ca8ff7.herokuapp.com',
 ]
 
 if 'CLIENT_ORIGIN' in os.environ:
